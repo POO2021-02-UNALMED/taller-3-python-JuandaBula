@@ -57,16 +57,16 @@ class TV:
     def canalDown(self):
         self.setCanal(self._canal - 1)
 
-    def VolumenUp(self):
+    def volumenUp(self):
         self.setVolumen(self._volumen + 1)
 
-    def VolumenDown(self):
+    def volumenDown(self):
         self.setVolumen(self._volumen - 1)
 
     @staticmethod
     def getNumTV():
-        return TV_numTV
+        return TV._numTV
 
     @staticmethod
     def setNumTV(numTV):
-        TV.numTV = numTV
+        TV._numTV = numTV
